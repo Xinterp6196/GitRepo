@@ -1,0 +1,145 @@
+*** Targets ***
+
+probe = FPing
+
+menu = Top
+title = Network Latency Grapher
+remark = Welcome to Power Solution International's SmokePing service. \
+         Here you will see the latency and connectivity of the network.
+
+
++ InternetSites
+menu = Internet Sites
+title = Internet Sites
+
+++ PSIEnginesMainPage
+menu = PSI Engines Main Page
+title = PSI Engines Main Page
+host = psiengines.com
+
+++ Google
+menu = Google
+title = Google
+host = google.com
+
+++ Paycom
+menu = Paycom
+title = Paycom
+host = paycom.com
+
+++ MSFT365
+menu = Microsoft 365
+title = Microsoft 365
+host = microsoft.com/en-us/microsoft-365
+
+++ MSFTOffice
+menu = Microsoft Office
+title = Microsoft Office
+host = office.com
+
++ Local
+menu = Local Network
+title = Local Network
+
+++ Servers
+menu = Servers
+title = Servers
+
++++ Smokeping
+menu = Smokeping Server
+title = Smokeping Server
+host = localhost
+
++++ PRODServer1
+menu = Production Server 1
+title = Production Server 1
+host = XXX.XXX.XXX.XXX
+
++++ PRODServer2
+menu = Production Server 2
+title = Production Server 2
+host = XXX.XXX.XXX.XXX
+
++++ PRODServer3
+menu = Production Server 3
+title = Production Server 3
+host = XXX.XXX.XXX.XXX
+
++++ TESTENVServer1
+menu = Test Environment Server 1
+title = Test Environment Server 1
+host = XXX.XXX.XXX.XXX
+
++++ TESTENVServer2
+menu = Test Environment Server 2
+title = Test Environment Server 2
+host = XXX.XXX.XXX.XXX
+
+++ ProductionMachines
+menu = Production Machines
+title = Production Machines
+
++++ ProductionMachinesBP
+menu = Brake Press Machines
+title = Brake Press Machines
+
+++++ BrakePress1
+menu = Brake Press 1
+title = Brake Press 1
+host = XXX.XXX.XXX.XXX
+
+++++ BrakePress2
+menu = Brake Press 2
+title = Brake Press 2
+host = XXX.XXX.XXX.XXX
+
+++++ BrakePress3
+menu = Brake Press 3
+title = Brake Press 3
+host = XXX.XXX.XXX.XXX
+
+++++ BrakePress4
+menu = Brake Press 4
+title = Brake Press 4
+host = XXX.XXX.XXX.XXX
+
++++ ProductionMachinesLSR
+menu = Laser Machines
+title = Laser Machines
+
+++++ CINLaser1
+menu = Cincinnati Laser 1
+title = Cincinnati Laser 1
+host = XXX.XXX.XXX.XXX
+
+++++ CINLaser2
+menu = Cincinnati Laser 2
+title = Cincinnati Laser 2
+host = XXX.XXX.XXX.XXX
+
+++++ OTHRLaser
+menu = Other Laser
+title = Other Laser
+host = XXX.XXX.XXX.XXX
+
++ ExternalDNSTracking
+
+menu = External DNS Tracking
+title = External DNS Tracking
+
+++ Cloudflare
+menu = Cloudflare (1.1.1.1)
+title = Cloudflare (1.1.1.1)
+host = 1.1.1.1
+
+++ GoogleDNS
+menu = Google DNS (8.8.8.8)
+title = Google DNS (8.8.8.8) 
+host = 8.8.8.8
+
+++ Quad9
+menu = Quad 9 (9.9.9.9)
+title = Quad 9 (9.9.9.9)
+host = 9.9.9.9
+
+

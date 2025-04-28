@@ -1,0 +1,14 @@
+*** Probes ***
+
++ FPing
+
+binary = /usr/bin/fping
+hostinterval = 1.5
+mininterval = 0.001
+offset = 8%
+packetsize = 64
+pings = 10
+step = 300
+timeout = 1.5
+
+
