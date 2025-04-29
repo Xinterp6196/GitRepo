@@ -37,9 +37,9 @@ menu = Microsoft Office
 title = Microsoft Office
 host = office.com
 
-+ Local
-menu = Local Network
-title = Local Network
++ Internal
+menu = Internal Network
+title = Internal Network
 
 ++ Servers
 menu = Servers
@@ -50,15 +50,15 @@ menu = Smokeping Server
 title = Smokeping Server
 host = localhost
 
-+++ PRODServer1
-menu = Production Server 1
-title = Production Server 1
-host = XXX.XXX.XXX.XXX
++++ ESXi
+menu = ESXi PROD-01
+title = ESXi-PROD-01
+host = 10.40.15.200
 
-+++ PRODServer2
-menu = Production Server 2
-title = Production Server 2
-host = XXX.XXX.XXX.XXX
++++ iLO
+menu = iLO ENV-01
+title = iLO ENV-01
+host = 10.40.15.201
 
 +++ PRODServer3
 menu = Production Server 3
@@ -73,6 +73,172 @@ host = XXX.XXX.XXX.XXX
 +++ TESTENVServer2
 menu = Test Environment Server 2
 title = Test Environment Server 2
+host = XXX.XXX.XXX.XXX
+
+++ NetworkSwitches
+menu = Network Switches
+title = Network Switches
+
++++ 448-CORE-2920
+menu = 448-CORE-2920 (2920-24G-P​oE+ (J9727A))
+title = 448-CORE-2920 (2920-24G-P​oE+ (J9727A))
+host = 10.40.0.3
+
++++ 448-2920
+menu = 448-2920 (2920-48G-P​oE+ (J9729A))
+title = 448-2920 (2920-48G-P​oE+ (J9729A))
+host = 10.40.0.4
+
++++ 448-2930M-01
+menu = 448-2930M-01 (HPE-Aruba Hardware Switch HPE-2930M)
+title = 448-2930M-01 (HPE-Aruba Hardware Switch HPE-2930M)
+host = 10.40.0.5
+
++++ 448-2930M-02
+menu = 448-2930M-02 (HPE Switch 2930M-48G-P​oE+ (JL322A))
+title = 448-2930M-02 (HPE Switch 2930M-48G-P​oE+ (JL322A))
+host = 10.40.0.7
+
++++ 448-2930-F01
+menu = 448-2930-F01 (HPE 2930F-48G-P​oE+-4SFP)
+title = 448-2930-F01 (HPE 2930F-48G-P​oE+-4SFP)
+host = 10.40.0.10
+
++++ 448-SHIPPING-2530-01
+menu = 448-SHIPPING-2530-01 (HPE J9776A 2530-24G Switch)
+title = 448-SHIPPING-2530-01 (HPE J9776A 2530-24G Switch)
+host = 10.40.0.15
+
++++ 448-BREAKROOM-2930F
+menu = 448-BREAKROOM-2930F (HPE 2930F-24G-P​oE+-4SFP (JL261A))
+title = 448-BREAKROOM-2930F (HPE 2930F-24G-P​oE+-4SFP (JL261A))
+host = 10.40.0.16
+
++++ 448-2930-F01
+menu = 448-2930-F01 (2) (HPE 2930F-48G-P​oE+-4SFP)
+title = 448-2930-F01 (2) (HPE 2930F-48G-P​oE+-4SFP)
+host = 10.40.0.17
+
+++ WirelessAP
+menu = Wireless Access Points
+title = Wireless Access Points
+
++++ WAP-B1
+menu = Building 1
+title = Building 1
+
+++++ 448-B1-AP1
+menu = 448-B1-AP1
+title = 448-B1-AP1
+host = 10.40.10.77
+
++++ 448-B1-AP2
+menu = 448-B1-AP2
+title = 448-B1-AP2
+host = 10.40.7.238
+
+++++ 448-B1-AP3
+menu = 448-B1-AP3
+title = 448-B1-AP3
+host = 10.40.7.243
+
+++++ 448-B1-AP4
+menu = 448-B1-AP4
+title = 448-B1-AP4
+host = 10.40.10.161
+
+++++ 448-B1-AP5
+menu = 448-B1-AP5
+title = 448-B1-AP5
+host = 10.40.10.160
+
+++++ 448-B1-AP6
+menu = 448-B1-AP6
+title = 448-B1-AP6
+host = 10.40.7.237
+
+++++ 448-B1-AP7
+menu = 448-B1-AP7
+title = 448-B1-AP7
+host = 10.40.10.252
+
+++++ 448-B1-AP8
+menu = 448-B1-AP8
+title = 448-B1-AP8
+host = 10.40.8.22
+
+++++ 448-B1-AP9
+menu = 448-B1-AP9
+title = 448-B1-AP9
+host = 10.40.7.247
+
+++++ 448-B1-AP10
+menu = 448-B1-AP10
+title = 448-B1-AP10
+host = 10.40.8.26
+
+++++ 448-B1-AP11
+menu = 448-10-40-7-242
+title = 448-10-40-7-242
+host = 10.40.7.242
+
+++++ 448-B1-AP12
+menu = 448-10-40-7-245
+title = 448-10-40-7-245
+host = 10.40.7.245
+
+++++ 448-B1-AP13
+menu = 448-10-40-7-246
+title = 448-10-40-7-246
+host = 10.40.7.246
+
+++++ 448-B1-AP14
+menu = 448-10-40-7-249
+title = 448-10-40-7-249
+host = 10.40.7.249
+
+++++ 448-B1-AP15
+menu = 448-10-40-7-254
+title = 448-10-40-7-254
+host = 10.40.7.254
+
++++ WAP-B2
+menu = Building 2
+title = Building 2
+
+++++ 448-B2-AP1
+menu = 448-BLD-2-A AP
+title = 448-BLD-2-A AP
+host = 10.40.10.90
+
+++++ 448-B2-AP2
+menu = 448-B2-AP2
+title = 448-B2-AP2
+host = XXX.XXX.XXX.XXX
+
+++++ 448-B2-AP3
+menu = 448-B2-AP3
+title = 448-B2-AP3
+host = XXX.XXX.XXX.XXX
+
+++++ 448-B2-AP4
+menu = 448-B2-AP4
+title = 448-B2-AP4
+host = XXX.XXX.XXX.XXX
+
+++++ 448-B2-AP5
+menu = 448-B2-AP5
+title = 448-B2-AP5
+host = XXX.XXX.XXX.XXX
+
+++++ 448-B2-AP6
+menu = 448-B2-AP6
+title = 448-B2-AP6
+host = XXX.XXX.XXX.XXX
+
+++++ 448-B2-AP7
+menu = 448-B2-AP7
+title = 448-B2-AP7
 host = XXX.XXX.XXX.XXX
 
 ++ ProductionMachines
@@ -141,5 +307,3 @@ host = 8.8.8.8
 menu = Quad 9 (9.9.9.9)
 title = Quad 9 (9.9.9.9)
 host = 9.9.9.9
-
-
